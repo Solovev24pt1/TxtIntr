@@ -17,7 +17,7 @@ private:
         std::cout << "Поддерживаемые операции:" << std::endl;
         std::cout << "  multiply - умножение (5-7 операндов)" << std::endl;
         std::cout << "  divide   - деление первого операнда на все остальные (5-7 операндов)" << std::endl;
-        std::endl;
+        std::cout << std::endl;
         std::cout << "Примеры:" << std::endl;
         std::cout << "  calculator -o multiply 2 3 4 5 6" << std::endl;
         std::cout << "  calculator -o divide 100 2 5 2 2" << std::endl;
